@@ -1,7 +1,7 @@
 public class objCpu {
     private String manufacturer;
     private String partCode;
-    private double coreCount;
+    private int coreCount;
     private double coreClock;
     private double maxCoreClock;
     private String tdp;
@@ -10,7 +10,7 @@ public class objCpu {
     private String  integrateGraphics;
     private int  maxMemory ;
 
-    public objCpu(String manufacture, String partCode, double coreCount, double coreClock, double maxCoreClock,
+    public objCpu(String manufacturer, String partCode, int coreCount, double coreClock, double maxCoreClock,
                   String tdp, String series, String socket, String integrateGraphics, int maxMemory) {
         this.manufacturer = manufacturer;
         this.partCode = partCode;
@@ -25,8 +25,8 @@ public class objCpu {
     }
 
     public String storageDetails() {
-        return " your information " + "\n" + "Manufacterer = " + manufacturer + "\n" + "Code Part = " + partCode + "\n" +
-                "Core Count = " +coreCount +  "\n" + "Core clock = " + coreClock + "\n" + "Maximum core clock = " + maxCoreClock + "\n" +
+        return " \n" + "INFO "+ " \n" + " \n" + "Series = " + series  + "\n" + "Manufacterer = " + manufacturer + "\n" + "Code Part = " + partCode + "\n" +
+                "Core Count = " +coreCount +  "\n" + "Core clock = " + coreClock +  " ghz"+ "\n" + "Maximum core clock = " + maxCoreClock + " ghz"+ "\n" +
 
                 "TDP = " + tdp + "\n" + "Socket = " + socket + "\n" + "Integrated graphics = " + integrateGraphics + "\n" + "Maximum memory = " + maxMemory;
 
