@@ -32,7 +32,7 @@ public class objCpu {
 
     }
 
-    public String manufacrturer() {
+    public String getManufacrturer() {
         return manufacrturer();
     }
 
