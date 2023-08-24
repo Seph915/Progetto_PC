@@ -33,7 +33,7 @@ public class objCpu {
     }
 
     public String getManufacrturer() {
-        return manufacrturer();
+        return manufacturer;
     }
 
     public String getPartCode(){
