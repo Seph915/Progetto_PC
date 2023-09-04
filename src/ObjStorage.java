@@ -20,11 +20,23 @@ public class ObjStorage {
     }
 
     private String isNvmeString() {
-       return isNvme ? "Yes":"No";
+        return isNvme ? "Yes" : "No";
     }
 
     public String storageDetails() {
         return manufacture + " " + model + "\n" + serial + "\nCapacità: " + capacity + " gb" + "\nFormato: " + formFactor + " " + interfaceconnector + "\nNVME: " + isNvmeString();
+    }
+
+    public String getManufacture() {
+        return manufacture;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getSerial() {
+        return serial;
     }
 
     public int getCapacity() {
