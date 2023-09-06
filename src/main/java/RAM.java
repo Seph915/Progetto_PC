@@ -1,5 +1,3 @@
-package src.main.java;
-
 public record RAM(String serialPart, String ddrSpeed, String ddrGen,
                   String formFactor, int moduleCount, int capacityGb,
                   int casLatency, double voltage, String timing) {
