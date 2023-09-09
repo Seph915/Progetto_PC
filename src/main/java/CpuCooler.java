@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public record ObjCpuCooler(String manufacture, String model, String partId,
+public record CpuCooler(String manufacture, String model, String partId,
                            short minRPM, short maxRPM, byte noiseMin,
                            byte noiseMax, String[] cpuSocket, boolean isWaterCooled) {
     @Override
