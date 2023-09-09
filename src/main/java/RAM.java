@@ -13,4 +13,9 @@ public record RAM(String serialPart, String ddrSpeed, String ddrGen,
                 "\nVoltage: " + voltage + "V" +
                 "\nTiming: " + timing;
     }
+    
+    @Override
+    public boolean equals(Object obj) {
+        return false;
+    }
 }
